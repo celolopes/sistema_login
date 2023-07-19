@@ -24,7 +24,7 @@ if (isset($_POST['nome_completo']) && isset($_POST['email']) && isset($_POST['se
 		$checkbox = limparPost($_POST['termos']);
 
 		//VERIFICAR SE NOME É APENAS LETRAS E ESPAÇO
-		if (!preg_match("/^[a-zA-Z-' àèìòùÁÉÍÓÚâêîôûÂÊÎÔÛãõÃÕçÇ]*$/", $nome)) {
+		if (!preg_match("/^[a-zA-Z-' éíáàèìòùÁÉÍÓÚâêîôûÂÊÎÔÛãõÃÕçÇ]*$/", $nome)) {
 			$erro_nome = "Apenas letras e espaços em branco são permitidos!";
 		}
 		//VERIFICAR SE EMAIL É VÁLIDO
