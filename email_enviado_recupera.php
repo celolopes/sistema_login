@@ -15,7 +15,7 @@
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                 <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_4tvpr5xz.json" background="transparent" speed="1" style="width: 300px; height: 300px; text-align:center" loop autoplay></lottie-player>
             </center>
-            <h1>Recuperação Enviado por Email!</h1>
+            <h1>Recuperação de Senha enviado por Email!</h1>
             <p>Enviamos um E-mail para você trocar a sua senha. <br>Por Favor, lembre-se de verificar também na sua caixa de SPAMS!</p>
         </div>
     </body>

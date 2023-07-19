@@ -25,7 +25,7 @@ if (isset($_POST['email']) && isset($_POST['senha']) && !empty($_POST['email']) 
                 header('location: restrita.php');
             }
         } else {
-            $erro_login = "Por favor confirme ser cadastro no seu e-mail cadastrado";
+            $erro_login = "Por favor confirme seu cadastro no seu e-mail cadastrado";
         }
     } else {
         $erro_login = "Usuário e/ou senha incorretos!";
