@@ -6,9 +6,9 @@ Este projeto é um simples sistema de login utilizando PHP, que permite que os u
 
 # Como usar
 
-1. Faça o clone do repositório.
-2 .Configure o acesso ao banco de dados no arquivo config/conexao.php.
-3 .Acesse a página index.php no seu servidor local para visualizar a página de login.
+1- Faça o clone do repositório.
+2- Configure o acesso ao banco de dados no arquivo config/conexao.php.
+3- Acesse a página index.php no seu servidor local para visualizar a página de login.
 
 # Funcionalidades
 
